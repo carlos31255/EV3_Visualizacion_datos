@@ -1,0 +1,13 @@
+# StreamView Analytics — EV3 / EP5 · ADY1104
+# Dependencias de la base EV2: procesamiento, gráficos y notebooks.
+# Rangos mínimos; no constituyen un entorno con versiones congeladas.
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Entorno y ejecución de notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipython>=8.0.0
+nbformat>=5.9.0
+nbconvert>=7.0.0
