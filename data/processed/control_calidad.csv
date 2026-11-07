@@ -1,0 +1,18 @@
+control,esperado,obtenido,ok
+Películas de entrada,16000,16000,True
+Series de entrada,16000,16000,True
+Series duplicadas eliminadas (show_id repetido),9,9,True
+Filas del dataset unificado = películas + series sin duplicados,31991,31991,True
+content_id único (duplicados),0,0,True
+show_id que se solapan entre películas y series (resuelto con content_id),397,397,True
+Nulos en content_id/tipo_contenido/release_year,0,0,True
+Series con budget/revenue (deben ser 0),0,0,True
+Películas con datos financieros completos,3540,3540,True
+vote_average_clean nulo solo si vote_count = 0 (inconsistencias),0,0,True
+Géneros unificados sin mapear (distintos de los esperados),0,0,True
+Títulos duplicados en tabla de género (content_id + género),0,0,True
+Títulos de la tabla de género presentes en el unificado,31991,31991,True
+Títulos de la tabla de país presentes en el unificado,31991,31991,True
+Índice de engagement fuera de 0-100,0,0,True
+"Títulos marcados como telefilm (es_telefilm), excluidos del género",628,628,True
+Filas de TV Movie en la tabla de género (deben ser 0),0,0,True
