@@ -76,7 +76,7 @@ python src/limpieza.py
 python src/kpis.py
 ```
 
-Después inicia Jupyter desde `notebooks/`, porque las rutas de los cuadernos actuales toman su carpeta padre como raíz:
+Después inicia Jupyter desde `notebooks/`. El primer cuaderno utiliza esa ubicación; el EDA detecta automáticamente la raíz del proyecto:
 
 ```bash
 cd notebooks
@@ -129,7 +129,7 @@ G1 y G5 promedian títulos con votos; G3 y G7 restringen la calificación a tít
 
 ## Validación y estado de EV3
 
-La retroalimentación de EV2 confirmó la reproducción del pipeline, 17 controles de calidad y 360 comparaciones de métricas. Esto documenta la base validada; no sustituye una ejecución nueva de EV3.
+La revisión de los scripts con los CSV originales confirmó 17/17 controles de calidad y 360/360 comparaciones de métricas. El EDA corregido se ejecutó desde un estado limpio y generó los ocho gráficos. La comprobación final del entorno de entrega se mantiene como tarea de cierre.
 
 Referencias de EV2 para contrastar después de ejecutar:
 
@@ -149,7 +149,7 @@ Estos valores son referencias del dataset base, no metas de negocio.
 
 Pendientes de cierre:
 
-- Corregir las etiquetas superpuestas del panel de series en G3 y revisar los textos metodológicos del EDA.
+- Completado: etiquetas de G3 separadas con líneas guía y textos metodológicos del EDA actualizados.
 - Ejecutar la versión final desde un entorno limpio y comprobar tablas, ocho PNG y controles.
 - Completar las mejoras de Looker Studio: filtrado cruzado comprobado, separación por tipo, paleta consistente, comparaciones de KPIs y representación gráfica financiera.
 - Ampliar la infografía para incluir series y países; retirar los controles de navegación de su exportación.
@@ -157,3 +157,18 @@ Pendientes de cierre:
 - Completar `dashboard/`, el informe y el resumen ejecutivo; revisar que sus cifras correspondan a la misma ejecución.
 
 No se declara drill-down como implementado. La documentación final debe describir únicamente las interacciones verificadas y los ejes reales de la infografía corregida.
+
+## Documentación complementaria
+
+Consultar [glosario.md](glosario.md) para las 22 variables de la tabla maestra, fórmulas y diferencias entre las bases de cada gráfico.
+
+La organización de la pauta en `docs/pautas/` queda pendiente del movimiento local. El dashboard, la infografía y sus exportaciones se revisarán al final en Looker Studio.
+
+Para comprobar que una nueva ejecución no introduce diferencias en el CSV versionado, ejecutar desde la raíz, con los cambios previos guardados:
+
+```bash
+python src/limpieza.py
+git diff --stat -- data/processed/contenido_unificado.csv
+```
+
+La ausencia de salida indica que Git no detecta diferencias. Si aparecen cambios, revisar valores, orden de filas y formato antes de confirmar el commit.
