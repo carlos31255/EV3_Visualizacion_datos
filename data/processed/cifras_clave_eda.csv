@@ -1,0 +1,26 @@
+grafico,cifra,valor
+G1,calificacion_prom_Película,6.309
+G1,pct_confiable_Película,88.644
+G1,calificacion_prom_Serie,7.024
+G1,pct_confiable_Serie,38.447
+G2,mediana_popularidad_Película,10.913
+G2,atipicos_Película,1705.0
+G2,mediana_popularidad_Serie,36.2
+G2,atipicos_Serie,1609.0
+G3,eng_max_Película,66.36
+G3,calif_max_Película,7.139
+G3,eng_max_Serie,84.64
+G3,calif_max_Serie,7.477
+G4,pct_Drama_Película,43.188
+G4,pct_Drama_Serie,49.146
+G5,conf_series_2024,49.7
+G5,conf_series_2025,6.66
+G5,conf_peliculas_2025,8.6
+G6,pct_Estados Unidos_Película,48.512
+G6,pct_Estados Unidos_Serie,19.967
+G7,r_Película,0.246
+G7,r_Serie,0.133
+G8,roi_agregado_top1,8.803
+G8,cobertura_financiera_pct,22.125
+G8,roi_mediano_global,1.7
+G8,dependencia_top1_pct,23.462

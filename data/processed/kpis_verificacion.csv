@@ -1,0 +1,361 @@
+seleccion,kpi,via_pandas,via_looker,ok
+Total,titulos,31991.0,31991.0,True
+Total,calificacion_prom,6.630075571433779,6.630075571433779,True
+Total,pct_confiable,63.55224907005095,63.55224907005095,True
+Total,pct_alto_engagement,25.010159107248914,25.010159107248914,True
+Total,pct_estrella,8.468006626863806,8.468006626863806,True
+Total,pct_drama,46.16610921821762,46.16610921821762,True
+Total,pct_eeuu,34.24400612672314,34.24400612672314,True
+Total,roi_agregado,2.916554424658258,2.916554424658258,True
+Total,roi_mediano,1.7000329225881312,1.7000329225881312,True
+Total,peliculas_con_datos_fin,3540.0,3540.0,True
+Total,pct_cobertura_fin,22.125,22.125,True
+Películas,titulos,16000.0,16000.0,True
+Películas,calificacion_prom,6.308876605322388,6.308876605322388,True
+Películas,pct_confiable,88.64375,88.64375,True
+Películas,pct_alto_engagement,25.0125,25.0125,True
+Películas,pct_estrella,8.075000000000001,8.075000000000001,True
+Películas,pct_drama,43.1875,43.1875,True
+Películas,pct_eeuu,48.512499999999996,48.512499999999996,True
+Películas,roi_agregado,2.916554424658258,2.916554424658258,True
+Películas,roi_mediano,1.7000329225881312,1.7000329225881312,True
+Películas,peliculas_con_datos_fin,3540.0,3540.0,True
+Películas,pct_cobertura_fin,22.125,22.125,True
+Series,titulos,15991.0,15991.0,True
+Series,calificacion_prom,7.023749533468559,7.0237495334685605,True
+Series,pct_confiable,38.44662622725283,38.44662622725283,True
+Series,pct_alto_engagement,25.007816897004563,25.007816897004563,True
+Series,pct_estrella,8.861234444374961,8.861234444374961,True
+Series,pct_drama,49.14639484710149,49.14639484710149,True
+Series,pct_eeuu,19.96748170846101,19.96748170846101,True
+Series,roi_agregado,,,True
+Series,roi_mediano,,,True
+Series,peliculas_con_datos_fin,0.0,0.0,True
+Series,pct_cobertura_fin,,,True
+Selección aleatoria 1,titulos,3.0,3.0,True
+Selección aleatoria 1,calificacion_prom,8.0,8.0,True
+Selección aleatoria 1,pct_confiable,0.0,0.0,True
+Selección aleatoria 1,pct_alto_engagement,33.33333333333333,33.33333333333333,True
+Selección aleatoria 1,pct_estrella,0.0,0.0,True
+Selección aleatoria 1,pct_drama,0.0,0.0,True
+Selección aleatoria 1,pct_eeuu,0.0,0.0,True
+Selección aleatoria 1,roi_agregado,,,True
+Selección aleatoria 1,roi_mediano,,,True
+Selección aleatoria 1,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 1,pct_cobertura_fin,,,True
+Selección aleatoria 2,titulos,36.0,36.0,True
+Selección aleatoria 2,calificacion_prom,6.488485714285715,6.488485714285715,True
+Selección aleatoria 2,pct_confiable,72.22222222222221,72.22222222222221,True
+Selección aleatoria 2,pct_alto_engagement,25.0,25.0,True
+Selección aleatoria 2,pct_estrella,0.0,0.0,True
+Selección aleatoria 2,pct_drama,0.0,0.0,True
+Selección aleatoria 2,pct_eeuu,11.11111111111111,11.11111111111111,True
+Selección aleatoria 2,roi_agregado,3.162323818181818,3.162323818181818,True
+Selección aleatoria 2,roi_mediano,2.228115,2.228115,True
+Selección aleatoria 2,peliculas_con_datos_fin,3.0,3.0,True
+Selección aleatoria 2,pct_cobertura_fin,12.0,12.0,True
+Selección aleatoria 3,titulos,1.0,1.0,True
+Selección aleatoria 3,calificacion_prom,3.4,3.4,True
+Selección aleatoria 3,pct_confiable,0.0,0.0,True
+Selección aleatoria 3,pct_alto_engagement,100.0,100.0,True
+Selección aleatoria 3,pct_estrella,0.0,0.0,True
+Selección aleatoria 3,pct_drama,0.0,0.0,True
+Selección aleatoria 3,pct_eeuu,0.0,0.0,True
+Selección aleatoria 3,roi_agregado,,,True
+Selección aleatoria 3,roi_mediano,,,True
+Selección aleatoria 3,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 3,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 4,titulos,88.0,88.0,True
+Selección aleatoria 4,calificacion_prom,6.769653846153847,6.769653846153847,True
+Selección aleatoria 4,pct_confiable,37.5,37.5,True
+Selección aleatoria 4,pct_alto_engagement,29.545454545454547,29.545454545454547,True
+Selección aleatoria 4,pct_estrella,10.227272727272728,10.227272727272728,True
+Selección aleatoria 4,pct_drama,92.04545454545455,92.04545454545455,True
+Selección aleatoria 4,pct_eeuu,4.545454545454546,4.545454545454546,True
+Selección aleatoria 4,roi_agregado,1.8951577147573846,1.8951577147573846,True
+Selección aleatoria 4,roi_mediano,1.9387755102040816,1.9387755102040816,True
+Selección aleatoria 4,peliculas_con_datos_fin,3.0,3.0,True
+Selección aleatoria 4,pct_cobertura_fin,6.382978723404255,6.382978723404255,True
+Selección aleatoria 5,titulos,2.0,2.0,True
+Selección aleatoria 5,calificacion_prom,6.3,6.3,True
+Selección aleatoria 5,pct_confiable,50.0,50.0,True
+Selección aleatoria 5,pct_alto_engagement,0.0,0.0,True
+Selección aleatoria 5,pct_estrella,0.0,0.0,True
+Selección aleatoria 5,pct_drama,100.0,100.0,True
+Selección aleatoria 5,pct_eeuu,0.0,0.0,True
+Selección aleatoria 5,roi_agregado,,,True
+Selección aleatoria 5,roi_mediano,,,True
+Selección aleatoria 5,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 5,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 6,titulos,30.0,30.0,True
+Selección aleatoria 6,calificacion_prom,6.091678571428571,6.091678571428571,True
+Selección aleatoria 6,pct_confiable,83.33333333333334,83.33333333333334,True
+Selección aleatoria 6,pct_alto_engagement,10.0,10.0,True
+Selección aleatoria 6,pct_estrella,0.0,0.0,True
+Selección aleatoria 6,pct_drama,26.666666666666668,26.666666666666668,True
+Selección aleatoria 6,pct_eeuu,16.666666666666664,16.666666666666664,True
+Selección aleatoria 6,roi_agregado,1.7474778658278387,1.7474778658278387,True
+Selección aleatoria 6,roi_mediano,1.236842105263158,1.236842105263158,True
+Selección aleatoria 6,peliculas_con_datos_fin,5.0,5.0,True
+Selección aleatoria 6,pct_cobertura_fin,20.833333333333336,20.833333333333336,True
+Selección aleatoria 7,titulos,9.0,9.0,True
+Selección aleatoria 7,calificacion_prom,6.885714285714286,6.885714285714286,True
+Selección aleatoria 7,pct_confiable,22.22222222222222,22.22222222222222,True
+Selección aleatoria 7,pct_alto_engagement,11.11111111111111,11.11111111111111,True
+Selección aleatoria 7,pct_estrella,0.0,0.0,True
+Selección aleatoria 7,pct_drama,11.11111111111111,11.11111111111111,True
+Selección aleatoria 7,pct_eeuu,0.0,0.0,True
+Selección aleatoria 7,roi_agregado,,,True
+Selección aleatoria 7,roi_mediano,,,True
+Selección aleatoria 7,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 7,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 8,titulos,4.0,4.0,True
+Selección aleatoria 8,calificacion_prom,6.2595,6.2595,True
+Selección aleatoria 8,pct_confiable,100.0,100.0,True
+Selección aleatoria 8,pct_alto_engagement,50.0,50.0,True
+Selección aleatoria 8,pct_estrella,25.0,25.0,True
+Selección aleatoria 8,pct_drama,25.0,25.0,True
+Selección aleatoria 8,pct_eeuu,50.0,50.0,True
+Selección aleatoria 8,roi_agregado,,,True
+Selección aleatoria 8,roi_mediano,,,True
+Selección aleatoria 8,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 8,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 9,titulos,58.0,58.0,True
+Selección aleatoria 9,calificacion_prom,6.414000000000001,6.414000000000001,True
+Selección aleatoria 9,pct_confiable,77.58620689655173,77.58620689655173,True
+Selección aleatoria 9,pct_alto_engagement,29.310344827586203,29.310344827586203,True
+Selección aleatoria 9,pct_estrella,10.344827586206897,10.344827586206897,True
+Selección aleatoria 9,pct_drama,31.03448275862069,31.03448275862069,True
+Selección aleatoria 9,pct_eeuu,20.689655172413794,20.689655172413794,True
+Selección aleatoria 9,roi_agregado,1.5884296736427885,1.5884296736427885,True
+Selección aleatoria 9,roi_mediano,1.8699338923076922,1.8699338923076922,True
+Selección aleatoria 9,peliculas_con_datos_fin,9.0,9.0,True
+Selección aleatoria 9,pct_cobertura_fin,19.565217391304348,19.565217391304348,True
+Selección aleatoria 10,titulos,1.0,1.0,True
+Selección aleatoria 10,calificacion_prom,,,True
+Selección aleatoria 10,pct_confiable,0.0,0.0,True
+Selección aleatoria 10,pct_alto_engagement,0.0,0.0,True
+Selección aleatoria 10,pct_estrella,0.0,0.0,True
+Selección aleatoria 10,pct_drama,100.0,100.0,True
+Selección aleatoria 10,pct_eeuu,0.0,0.0,True
+Selección aleatoria 10,roi_agregado,,,True
+Selección aleatoria 10,roi_mediano,,,True
+Selección aleatoria 10,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 10,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 11,titulos,40.0,40.0,True
+Selección aleatoria 11,calificacion_prom,6.371588235294118,6.3715882352941176,True
+Selección aleatoria 11,pct_confiable,57.49999999999999,57.49999999999999,True
+Selección aleatoria 11,pct_alto_engagement,30.0,30.0,True
+Selección aleatoria 11,pct_estrella,10.0,10.0,True
+Selección aleatoria 11,pct_drama,80.0,80.0,True
+Selección aleatoria 11,pct_eeuu,20.0,20.0,True
+Selección aleatoria 11,roi_agregado,0.6164745833502477,0.6164745833502477,True
+Selección aleatoria 11,roi_mediano,0.8823529411764706,0.8823529411764706,True
+Selección aleatoria 11,peliculas_con_datos_fin,5.0,5.0,True
+Selección aleatoria 11,pct_cobertura_fin,26.31578947368421,26.31578947368421,True
+Selección aleatoria 12,titulos,24.0,24.0,True
+Selección aleatoria 12,calificacion_prom,6.2636666666666665,6.2636666666666665,True
+Selección aleatoria 12,pct_confiable,91.66666666666666,91.66666666666666,True
+Selección aleatoria 12,pct_alto_engagement,45.83333333333333,45.83333333333333,True
+Selección aleatoria 12,pct_estrella,8.333333333333332,8.333333333333332,True
+Selección aleatoria 12,pct_drama,33.33333333333333,33.33333333333333,True
+Selección aleatoria 12,pct_eeuu,41.66666666666667,41.66666666666667,True
+Selección aleatoria 12,roi_agregado,0.9132245750182736,0.9132245750182736,True
+Selección aleatoria 12,roi_mediano,0.6797567775186567,0.6797567775186567,True
+Selección aleatoria 12,peliculas_con_datos_fin,6.0,6.0,True
+Selección aleatoria 12,pct_cobertura_fin,28.57142857142857,28.57142857142857,True
+Selección aleatoria 14,titulos,2.0,2.0,True
+Selección aleatoria 14,calificacion_prom,,,True
+Selección aleatoria 14,pct_confiable,0.0,0.0,True
+Selección aleatoria 14,pct_alto_engagement,0.0,0.0,True
+Selección aleatoria 14,pct_estrella,0.0,0.0,True
+Selección aleatoria 14,pct_drama,0.0,0.0,True
+Selección aleatoria 14,pct_eeuu,0.0,0.0,True
+Selección aleatoria 14,roi_agregado,,,True
+Selección aleatoria 14,roi_mediano,,,True
+Selección aleatoria 14,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 14,pct_cobertura_fin,,,True
+Selección aleatoria 15,titulos,3.0,3.0,True
+Selección aleatoria 15,calificacion_prom,6.942500000000001,6.942500000000001,True
+Selección aleatoria 15,pct_confiable,66.66666666666666,66.66666666666666,True
+Selección aleatoria 15,pct_alto_engagement,33.33333333333333,33.33333333333333,True
+Selección aleatoria 15,pct_estrella,0.0,0.0,True
+Selección aleatoria 15,pct_drama,33.33333333333333,33.33333333333333,True
+Selección aleatoria 15,pct_eeuu,0.0,0.0,True
+Selección aleatoria 15,roi_agregado,,,True
+Selección aleatoria 15,roi_mediano,,,True
+Selección aleatoria 15,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 15,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 16,titulos,79.0,79.0,True
+Selección aleatoria 16,calificacion_prom,6.925925373134328,6.925925373134329,True
+Selección aleatoria 16,pct_confiable,49.36708860759494,49.36708860759494,True
+Selección aleatoria 16,pct_alto_engagement,30.37974683544304,30.37974683544304,True
+Selección aleatoria 16,pct_estrella,6.329113924050633,6.329113924050633,True
+Selección aleatoria 16,pct_drama,54.43037974683544,54.43037974683544,True
+Selección aleatoria 16,pct_eeuu,1.2658227848101267,1.2658227848101267,True
+Selección aleatoria 16,roi_agregado,2.7186541723025255,2.7186541723025255,True
+Selección aleatoria 16,roi_mediano,2.90464739028865,2.90464739028865,True
+Selección aleatoria 16,peliculas_con_datos_fin,14.0,14.0,True
+Selección aleatoria 16,pct_cobertura_fin,40.0,40.0,True
+Selección aleatoria 18,titulos,254.0,254.0,True
+Selección aleatoria 18,calificacion_prom,6.859113989637305,6.859113989637307,True
+Selección aleatoria 18,pct_confiable,57.08661417322835,57.08661417322835,True
+Selección aleatoria 18,pct_alto_engagement,12.992125984251967,12.992125984251967,True
+Selección aleatoria 18,pct_estrella,5.905511811023622,5.905511811023622,True
+Selección aleatoria 18,pct_drama,1.1811023622047243,1.1811023622047243,True
+Selección aleatoria 18,pct_eeuu,100.0,100.0,True
+Selección aleatoria 18,roi_agregado,,,True
+Selección aleatoria 18,roi_mediano,,,True
+Selección aleatoria 18,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 18,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 19,titulos,69.0,69.0,True
+Selección aleatoria 19,calificacion_prom,6.2428888888888885,6.2428888888888885,True
+Selección aleatoria 19,pct_confiable,82.6086956521739,82.6086956521739,True
+Selección aleatoria 19,pct_alto_engagement,43.47826086956522,43.47826086956522,True
+Selección aleatoria 19,pct_estrella,17.391304347826086,17.391304347826086,True
+Selección aleatoria 19,pct_drama,21.73913043478261,21.73913043478261,True
+Selección aleatoria 19,pct_eeuu,42.028985507246375,42.028985507246375,True
+Selección aleatoria 19,roi_agregado,0.3754794038748137,0.3754794038748137,True
+Selección aleatoria 19,roi_mediano,0.350308781512605,0.350308781512605,True
+Selección aleatoria 19,peliculas_con_datos_fin,5.0,5.0,True
+Selección aleatoria 19,pct_cobertura_fin,8.620689655172415,8.620689655172415,True
+Selección aleatoria 20,titulos,307.0,307.0,True
+Selección aleatoria 20,calificacion_prom,6.514521551724139,6.514521551724139,True
+Selección aleatoria 20,pct_confiable,45.60260586319218,45.60260586319218,True
+Selección aleatoria 20,pct_alto_engagement,31.27035830618892,31.27035830618892,True
+Selección aleatoria 20,pct_estrella,7.166123778501629,7.166123778501629,True
+Selección aleatoria 20,pct_drama,77.85016286644951,77.85016286644951,True
+Selección aleatoria 20,pct_eeuu,3.908794788273615,3.908794788273615,True
+Selección aleatoria 20,roi_agregado,2.387773196060693,2.387773196060693,True
+Selección aleatoria 20,roi_mediano,2.263157894736842,2.263157894736842,True
+Selección aleatoria 20,peliculas_con_datos_fin,49.0,49.0,True
+Selección aleatoria 20,pct_cobertura_fin,31.0126582278481,31.0126582278481,True
+Selección aleatoria 21,titulos,193.0,193.0,True
+Selección aleatoria 21,calificacion_prom,7.412620437956204,7.412620437956204,True
+Selección aleatoria 21,pct_confiable,16.06217616580311,16.06217616580311,True
+Selección aleatoria 21,pct_alto_engagement,31.606217616580313,31.606217616580313,True
+Selección aleatoria 21,pct_estrella,2.5906735751295336,2.5906735751295336,True
+Selección aleatoria 21,pct_drama,1.5544041450777202,1.5544041450777202,True
+Selección aleatoria 21,pct_eeuu,1.5544041450777202,1.5544041450777202,True
+Selección aleatoria 21,roi_agregado,0.12,0.12,True
+Selección aleatoria 21,roi_mediano,0.12,0.12,True
+Selección aleatoria 21,peliculas_con_datos_fin,1.0,1.0,True
+Selección aleatoria 21,pct_cobertura_fin,9.090909090909092,9.090909090909092,True
+Selección aleatoria 23,titulos,5.0,5.0,True
+Selección aleatoria 23,calificacion_prom,6.423,6.423,True
+Selección aleatoria 23,pct_confiable,40.0,40.0,True
+Selección aleatoria 23,pct_alto_engagement,20.0,20.0,True
+Selección aleatoria 23,pct_estrella,0.0,0.0,True
+Selección aleatoria 23,pct_drama,100.0,100.0,True
+Selección aleatoria 23,pct_eeuu,20.0,20.0,True
+Selección aleatoria 23,roi_agregado,,,True
+Selección aleatoria 23,roi_mediano,,,True
+Selección aleatoria 23,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 23,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 24,titulos,9.0,9.0,True
+Selección aleatoria 24,calificacion_prom,7.066666666666666,7.066666666666666,True
+Selección aleatoria 24,pct_confiable,0.0,0.0,True
+Selección aleatoria 24,pct_alto_engagement,11.11111111111111,11.11111111111111,True
+Selección aleatoria 24,pct_estrella,0.0,0.0,True
+Selección aleatoria 24,pct_drama,44.44444444444444,44.44444444444444,True
+Selección aleatoria 24,pct_eeuu,0.0,0.0,True
+Selección aleatoria 24,roi_agregado,,,True
+Selección aleatoria 24,roi_mediano,,,True
+Selección aleatoria 24,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 24,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 25,titulos,12.0,12.0,True
+Selección aleatoria 25,calificacion_prom,6.4725,6.4725,True
+Selección aleatoria 25,pct_confiable,83.33333333333334,83.33333333333334,True
+Selección aleatoria 25,pct_alto_engagement,41.66666666666667,41.66666666666667,True
+Selección aleatoria 25,pct_estrella,0.0,0.0,True
+Selección aleatoria 25,pct_drama,58.333333333333336,58.333333333333336,True
+Selección aleatoria 25,pct_eeuu,25.0,25.0,True
+Selección aleatoria 25,roi_agregado,2.0377076967805285,2.0377076967805285,True
+Selección aleatoria 25,roi_mediano,2.3242863710833883,2.3242863710833883,True
+Selección aleatoria 25,peliculas_con_datos_fin,2.0,2.0,True
+Selección aleatoria 25,pct_cobertura_fin,22.22222222222222,22.22222222222222,True
+Selección aleatoria 26,titulos,3.0,3.0,True
+Selección aleatoria 26,calificacion_prom,6.666666666666667,6.666666666666667,True
+Selección aleatoria 26,pct_confiable,66.66666666666666,66.66666666666666,True
+Selección aleatoria 26,pct_alto_engagement,33.33333333333333,33.33333333333333,True
+Selección aleatoria 26,pct_estrella,0.0,0.0,True
+Selección aleatoria 26,pct_drama,0.0,0.0,True
+Selección aleatoria 26,pct_eeuu,0.0,0.0,True
+Selección aleatoria 26,roi_agregado,0.529851052631579,0.529851052631579,True
+Selección aleatoria 26,roi_mediano,0.529851052631579,0.529851052631579,True
+Selección aleatoria 26,peliculas_con_datos_fin,1.0,1.0,True
+Selección aleatoria 26,pct_cobertura_fin,33.33333333333333,33.33333333333333,True
+Selección aleatoria 27,titulos,143.0,143.0,True
+Selección aleatoria 27,calificacion_prom,6.352627450980393,6.352627450980392,True
+Selección aleatoria 27,pct_confiable,35.66433566433567,35.66433566433567,True
+Selección aleatoria 27,pct_alto_engagement,28.671328671328673,28.671328671328673,True
+Selección aleatoria 27,pct_estrella,1.3986013986013985,1.3986013986013985,True
+Selección aleatoria 27,pct_drama,8.391608391608392,8.391608391608392,True
+Selección aleatoria 27,pct_eeuu,13.986013986013987,13.986013986013987,True
+Selección aleatoria 27,roi_agregado,0.9575415639416168,0.9575415639416168,True
+Selección aleatoria 27,roi_mediano,0.6159115544117647,0.6159115544117647,True
+Selección aleatoria 27,peliculas_con_datos_fin,12.0,12.0,True
+Selección aleatoria 27,pct_cobertura_fin,26.08695652173913,26.08695652173913,True
+Selección aleatoria 28,titulos,71.0,71.0,True
+Selección aleatoria 28,calificacion_prom,7.072283333333334,7.072283333333334,True
+Selección aleatoria 28,pct_confiable,46.478873239436616,46.478873239436616,True
+Selección aleatoria 28,pct_alto_engagement,29.577464788732392,29.577464788732392,True
+Selección aleatoria 28,pct_estrella,8.450704225352112,8.450704225352112,True
+Selección aleatoria 28,pct_drama,56.33802816901409,56.33802816901409,True
+Selección aleatoria 28,pct_eeuu,2.8169014084507045,2.8169014084507045,True
+Selección aleatoria 28,roi_agregado,1.834640878590972,1.834640878590972,True
+Selección aleatoria 28,roi_mediano,2.937499908782428,2.937499908782428,True
+Selección aleatoria 28,peliculas_con_datos_fin,9.0,9.0,True
+Selección aleatoria 28,pct_cobertura_fin,29.03225806451613,29.03225806451613,True
+Selección aleatoria 29,titulos,15.0,15.0,True
+Selección aleatoria 29,calificacion_prom,5.783333333333334,5.783333333333334,True
+Selección aleatoria 29,pct_confiable,0.0,0.0,True
+Selección aleatoria 29,pct_alto_engagement,6.666666666666667,6.666666666666667,True
+Selección aleatoria 29,pct_estrella,0.0,0.0,True
+Selección aleatoria 29,pct_drama,0.0,0.0,True
+Selección aleatoria 29,pct_eeuu,0.0,0.0,True
+Selección aleatoria 29,roi_agregado,,,True
+Selección aleatoria 29,roi_mediano,,,True
+Selección aleatoria 29,peliculas_con_datos_fin,0.0,0.0,True
+Selección aleatoria 29,pct_cobertura_fin,0.0,0.0,True
+Selección aleatoria 30,titulos,165.0,165.0,True
+Selección aleatoria 30,calificacion_prom,7.0982038216560515,7.0982038216560515,True
+Selección aleatoria 30,pct_confiable,56.36363636363636,56.36363636363636,True
+Selección aleatoria 30,pct_alto_engagement,27.878787878787882,27.878787878787882,True
+Selección aleatoria 30,pct_estrella,15.151515151515152,15.151515151515152,True
+Selección aleatoria 30,pct_drama,99.39393939393939,99.39393939393939,True
+Selección aleatoria 30,pct_eeuu,7.878787878787878,7.878787878787878,True
+Selección aleatoria 30,roi_agregado,4.067674579690652,4.067674579690652,True
+Selección aleatoria 30,roi_mediano,5.0255769047619046,5.0255769047619046,True
+Selección aleatoria 30,peliculas_con_datos_fin,3.0,3.0,True
+Selección aleatoria 30,pct_cobertura_fin,12.5,12.5,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,25.98125,25.98125,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,9.86875,9.86875,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,17.0625,17.0625,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,28.33125,28.33125,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,10.8625,10.8625,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,5.7250000000000005,5.7250000000000005,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,43.1875,43.1875,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,9.2,9.2,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,2.625,2.625,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,4.575,4.575,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,7.7625,7.7625,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,3.05,3.05,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,16.06875,16.06875,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,23.556250000000002,23.556250000000002,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,15.156249999999998,15.156249999999998,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,0.7875,0.7875,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,12.431992996060284,12.431992996060284,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,15.571258833093616,15.571258833093616,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,12.244387467950721,12.244387467950721,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,28.59108248389719,28.59108248389719,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,9.16140328935026,9.16140328935026,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,5.684447501719717,5.684447501719717,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,49.14639484710149,49.14639484710149,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,13.019823650803577,13.019823650803577,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,2.0198861859796136,2.0198861859796136,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,8.329685448064536,8.329685448064536,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,0.7066474892126822,0.7066474892126822,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,10.193233693952848,10.193233693952848,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,4.089800512788443,4.089800512788443,True
+Género (tabla larga),pct_del_tipo + calificacion_prom,3.945969607904446,3.945969607904446,True
