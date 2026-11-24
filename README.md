@@ -6,9 +6,19 @@ Repositorio: https://github.com/carlos31255/EV3_Visualizacion_datos
 
 ## Problema y audiencia
 
-Apoyar a la Gerencia de Contenido y a la Dirección Ejecutiva en la exploración de películas, series, géneros y países para orientar la evaluación de oportunidades de adquisición.
+**Pregunta de negocio:** ¿qué géneros y países conviene priorizar en las próximas adquisiciones, qué títulos y directores vale la pena evaluar, y qué tan confiables son las cifras en que se apoya esa decisión?
 
-**Pregunta:** ¿qué señales de popularidad relativa, calificación y oferta por género y país pueden orientar la selección de contenidos?
+**Decisión que apoya:** qué géneros y países priorizar en las próximas adquisiciones, qué títulos y directores evaluar y cuánto presupuesto aprobar. Se asume una revisión mensual, en cada ciclo de adquisición.
+
+**Audiencia (tres usuarios) y página del dashboard que usa cada uno:**
+
+| Usuario | Qué necesita | Página |
+|---|---|---|
+| Directorio | Visión general del catálogo, KPIs y riesgos de los datos; aprueba el presupuesto según la fiabilidad de las cifras y el retorno de la inversión | 1 (y sección financiera de la 3) |
+| Gerente de Contenidos y Adquisición | Explorar y filtrar géneros, calidad y países para priorizar | 2 |
+| Analistas de programación | Bajar al detalle de títulos y directores candidatos | 3 |
+
+El dashboard se organiza por niveles de preguntas: Nivel 1 Catálogo, Niveles 2–4 Géneros, Calidad y Países, y Nivel 5 Títulos e inversión.
 
 Los datos permiten formular recomendaciones exploratorias. No permiten determinar una distribución óptima del presupuesto ni medir retención, reproducciones o engagement real de usuarios.
 
@@ -24,25 +34,35 @@ Los archivos abarcan 2010–2025. Cada fuente contiene originalmente 1.000 títu
 
 Variables centrales: identificador, tipo, título, año, géneros, países, idioma, directores, popularidad, cantidad de votos y calificación. Presupuesto y recaudación están disponibles solo para películas.
 
-## Organización prevista para la entrega
-
-Esta tabla describe la estructura que debe completarse en el proyecto local; no certifica que todos los archivos ya estén publicados en GitHub.
+## Organización del repositorio
 
 | Ruta | Contenido |
 |---|---|
 | `data/raw/` | Los dos CSV originales |
 | `data/processed/` | Tablas generadas por limpieza, KPIs y controles |
 | `src/limpieza.py` | Integración, limpieza y controles de calidad |
-| `src/kpis.py` | KPIs y tabla maestra destinada a Looker Studio |
+| `src/kpis.py` | KPIs y tabla maestra para Looker Studio |
 | `notebooks/01_integracion_y_limpieza.ipynb` | Evidencias de integración y diccionario |
 | `notebooks/02_eda_visualizaciones.ipynb` | EDA, ocho gráficos G1–G8 y controles de consistencia |
 | `images/` | Ocho PNG generados por el notebook EDA |
-| `dashboard/` | Capturas finales, PDF del dashboard, PDF de la infografía y enlace verificado |
-| `reports/` | Informe ejecutivo y resumen ejecutivo para EP5 |
+| `dashboard/` | PDF del dashboard y capturas de sus tres páginas |
+| `reports/` | `informe_ejecutivo_EV3.pdf` (informe ejecutivo) y `EV3_Streamview.pptx` (resumen ejecutivo) |
 | `glosario.md` | Definiciones de variables, métricas y limitaciones |
 | `requirements.txt` | Dependencias Python |
 
-`dashboard/` debe completarse después de corregir Looker Studio. El informe ejecutivo final debe entregarse en PDF y el resumen ejecutivo en PDF o PowerPoint, conforme a EP5.
+## Dashboard
+
+Dashboard interactivo en Looker Studio: [abrir dashboard](https://datastudio.google.com/reporting/73dd740d-238d-48e6-a6c1-771632017a46).
+
+| Página | Nivel | Contenido | Captura |
+|---|---|---|---|
+| 1 | Catálogo | KPIs generales y cobertura | `dashboard/1.Catalogo.png` |
+| 2 | Géneros, calidad y países | Exploración para priorizar adquisiciones | `dashboard/2.Generos_Y_Mercado.png` |
+| 3 | Títulos e inversión | Títulos, directores y retorno | `dashboard/3.Titulos_E_Inversion.png` |
+
+Exportación completa del dashboard: `dashboard/EV3_dashboard.pdf`.
+
+Interacciones: filtros sincronizados entre páginas y botones de navegación numerados. Looker Studio no ofrece drill-through nativo, por lo que no se declara como implementado.
 
 ## Instalación
 
@@ -63,11 +83,9 @@ Si utilizas Git Bash, activa el mismo entorno con:
 source .venv/Scripts/activate
 ```
 
-Looker Studio funciona en el navegador y no requiere Streamlit, Plotly ni Seaborn. Esas dependencias se retiraron conforme a la revisión de EV2.
+Looker Studio funciona en el navegador y no requiere Streamlit, Plotly ni Seaborn.
 
 ## Reproducción
-
-Antes de ejecutar, confirma que están presentes ambos CSV en `data/raw/`, los dos scripts de `src/` y los dos notebooks. Este README y `requirements.txt` no sustituyen esos archivos.
 
 Desde la raíz, con el entorno activo:
 
@@ -127,11 +145,11 @@ El notebook EDA exporta `cifras_clave_eda.csv`, `control_g4_vs_looker.csv`, `con
 
 G1 y G5 promedian títulos con votos; G3 y G7 restringen la calificación a títulos con ≥10 votos. En G3, la popularidad mediana se calcula sobre todos los títulos del género: las bases de ambas métricas deben explicitarse al reproducirlo en otra herramienta.
 
-## Validación y estado de EV3
+## Validación
 
-La revisión de los scripts con los CSV originales confirmó 17/17 controles de calidad y 360/360 comparaciones de métricas. El EDA corregido se ejecutó desde un estado limpio y generó los ocho gráficos. La comprobación final del entorno de entrega se mantiene como tarea de cierre.
+La revisión de los scripts con los CSV originales confirmó 17/17 controles de calidad y 360/360 comparaciones de métricas. Ambos notebooks se ejecutan sin errores desde una copia limpia del repositorio y el EDA genera los ocho gráficos.
 
-Referencias de EV2 para contrastar después de ejecutar:
+Referencias del dataset base (EV2) para contrastar después de ejecutar:
 
 | Indicador | Valor |
 |---|---:|
@@ -147,22 +165,16 @@ Referencias de EV2 para contrastar después de ejecutar:
 
 Estos valores son referencias del dataset base, no metas de negocio.
 
-Pendientes de cierre:
+## Limitaciones conocidas
 
-- Completado: etiquetas de G3 separadas con líneas guía y textos metodológicos del EDA actualizados.
-- Ejecutar la versión final desde un entorno limpio y comprobar tablas, ocho PNG y controles.
-- Completar las mejoras de Looker Studio: filtrado cruzado comprobado, separación por tipo, paleta consistente, comparaciones de KPIs y representación gráfica financiera.
-- Ampliar la infografía para incluir series y países; retirar los controles de navegación de su exportación.
-- Incorporar el enlace real y verificado del dashboard al cerrar esa etapa. Actualmente no se publica un enlace en este documento.
-- Completar `dashboard/`, el informe y el resumen ejecutivo; revisar que sus cifras correspondan a la misma ejecución.
-
-No se declara drill-down como implementado. La documentación final debe describir únicamente las interacciones verificadas y los ejes reales de la infografía corregida.
+- Los datos no incluyen reproducciones, por lo que no se mide consumo real.
+- Los datos financieros existen solo para películas (22,13 % de cobertura).
+- Las conclusiones del dashboard son texto fijo y no cambian con los filtros; cada una declara su alcance.
+- Looker Studio no ofrece drill-through nativo.
 
 ## Documentación complementaria
 
 Consultar [glosario.md](glosario.md) para las 22 variables de la tabla maestra, fórmulas y diferencias entre las bases de cada gráfico.
-
-La organización de la pauta en `docs/pautas/` queda pendiente del movimiento local. El dashboard, la infografía y sus exportaciones se revisarán al final en Looker Studio.
 
 Para comprobar que una nueva ejecución no introduce diferencias en el CSV versionado, ejecutar desde la raíz, con los cambios previos guardados:
 

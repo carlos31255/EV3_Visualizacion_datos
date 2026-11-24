@@ -1,6 +1,6 @@
 # Glosario de Variables y Métricas — StreamView Analytics (EV3 / EP5)
 
-Tabla prevista como fuente única del dashboard y de la infografía, generada por `src/kpis.py`:
+Tabla que sirve de fuente única del dashboard, generada por `src/kpis.py`:
 - `data/processed/looker_contenido.csv`: tabla maestra de 31.991 filas (una fila por título) y 22 columnas. Fuente única prevista para Looker Studio; su revisión final queda pendiente.
 - `data/processed/looker_genero.csv`: tabla desagregada por género utilizada exclusivamente para contraste y verificación interna frente a los notebooks. No se conecta a Looker Studio.
 
